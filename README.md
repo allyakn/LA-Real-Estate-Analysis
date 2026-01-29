@@ -3,8 +3,6 @@
 This project examines Los Angeles building permit data to uncover patterns in renovation activity across neighborhoods and over time.  
 The objective is to translate permit records into practical insights that help identify **active renovation markets**, **timing trends**, and **areas associated with higher renovation investment levels**.
 
----
-
 ## 📊 Overview
 
 **Data Source:**  
@@ -21,8 +19,6 @@ Each record corresponds to an individual building permit issued in Los Angeles.
 - **Investment Indicator:** declared permit valuation  
 - **Engineered Fields:** time elapsed between issuance and status
 
----
-
 ## 🔎 Research Questions
 
 This project focuses on answering the following questions:
@@ -31,8 +27,6 @@ This project focuses on answering the following questions:
 2. How does renovation activity fluctuate over time, and what does this suggest about market conditions?
 3. Which neighborhoods are associated with higher average renovation valuations?
 4. How do patterns differ between high-frequency renovation markets and high-value renovation markets?
-
----
 
 ## 🧠 Methodologies
 
@@ -62,8 +56,6 @@ This project focuses on answering the following questions:
 - Implemented filters for time range, permit type, and location
 - Displayed summary metrics and comparative charts to support interpretation
 
----
-
 ## 🛠️ Technologies
 
 - Python  
@@ -72,8 +64,6 @@ This project focuses on answering the following questions:
 - Pandas & NumPy  
 - Streamlit   
 
----
-
 ## 🎯 Key Insights
 
 - Renovation permits are not evenly distributed across the city, with certain zip codes showing sustained activity.
@@ -81,15 +71,11 @@ This project focuses on answering the following questions:
 - Neighborhoods with higher average permit valuations tend to reflect more capital-intensive renovation projects.
 - Permit data serves as a useful proxy for understanding local investment behavior and development activity.
 
----
-
 ## 📁 Project Components
 
 - **Data Pipeline:** `Data-Pipeline.ipynb`  
 - **Interactive Dashboard:** `LA-Dashboard.png`  
 - **Supporting Analysis & Report:** `docs/report.pdf`  
-
----
 
 ## 🔮 Future Enhancements
 
